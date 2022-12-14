@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My Styles*/
+
+/*website default and DESKTOP*/
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        width: 1168px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+}
+body{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    color: black;
+}
+
+h1{
+    font-size: 71px;
+    margin-bottom: 17px;
+    line-height: 104px;
+    font-weight: bolder;
+    color: white;
+}
+
+h2{
+    font-size: 48px;
+    margin: bottom 12px;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: bold;
+ }
+
+h4{ }
+
+h5{}
+
+h6{}
+
+p{
+    margin-bottom: 14em;
+}
+
+img{ 
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    padding: 1em;
+}
+
+/*about us*/
+
+nav{ 
+    background-color: #222222;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+li{ 
+    list-style: none;
+    color: #c78b07;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+
+.nav ul{
+    list-style: none;
+    background: #c78b07;
+    padding: 0;
+    margin: 0;
+}
+
+.okok{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form{
+    padding-top: 35px;
+    height: 60px;
+}
+
+input{
+    height: 30px;
+}
+
+.search{
+    height: 30px;
+    position: relative;
+    color: #222222;
+    outline: #c78b07;
+}
+
+
+
+
+
+/*welcome to three star media...*/
+
+.welcome-header{
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.welcome-header .container{
+    background-color: rgba(0, 0, 0, 0.805);
+    color: white;
+    padding-top: 60px;
+    width: auto;
+}
+
+.connect{
+    background-color: #c78b07;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 32px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+img[src="images/about-us.jpg"] {
+    width: 50%;
+    height: 50%;
+}
+
+.section-about{
+    background-color: #ffe6ac ;
+}
+
+.section-about .container{
+    display: flex;
+}
+
+.section-about, p, h2{
+   
+    flex-direction: column;
+}
+
+/*Services*/
+
+.aye {
+    max-width: 700px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.aye .block:nth-child(1){
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+}
+
+
+
+.button{
+    
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 32px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.ices{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 32px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+
+/*our vision*/
+
+.section-vision{
+    background-image: url(../images/vision.jpg);
+    background-size:cover;
+    background-position: center;
+    color: white;
+    padding-top: 60px;
+    width: auto;
+}
+
+.learnbutton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 32px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.contact{
+    display: flex;
+}
+
+table, tr{
+    border: 1px solid black;
+}
+
+/*our team*/
+
+.section-team .container{
+    display: flex;
+}

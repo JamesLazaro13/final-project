@@ -5,35 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+        <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); </style>
+
+    <link rel="stylesheet" href="css/styles.css"> 
+
 </head>
-    <header>
-        <nav> 
-            <div class="container">
-                <img src="images/logo.png" alt="Three Star Media">
-                <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">About Us</a></li>
-                    <li> <a href="#">Services</a></li>
-                    <li> <a href="#">Team</a></li>
-                    <li> <a href="#">Contact</a></li>
-                </ul>    
-                <form>
-                    <input type="search">
-                    <button>&#128269;</button>
-                 </form>
-              
-            </div> <!--END CONTAINER-->
-        </nav>
+    <body> 
+        <header>
+            <nav> 
+                <div class="okok">
+                    <img src="images/logo.png" alt="Three Star Media">
+                    <ul>
+                        
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">About Us</a></li>
+                        <li> <a href="#">Services</a></li>
+                        <li> <a href="#">Team</a></li>
+                        <li> <a href="#">Contact</a></li>
+                    </ul>    
+                    <form>
+                        <input type="search">
+                        <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                
+                </div> <!--END CONTAINER-->
+            </nav>
 
            
-            <div class="header-welcome">
+            <div class="welcome-header">
                 <div class="container">
-                    <img src="images/main-banner.jpg" alt="Welcome to Three Star Media">
                     <h1>Welcome to Three Star Media</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum 
                         similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga 
                         voluptatibus facilis iusto consequuntur!</p>
-                    <button>Connect with us ▶</button>
+                    <button class="connect">Connect with us ▶</button>
                 </div>  <!--END CONTAINER--> 
             </div>
         </header>
@@ -41,65 +51,67 @@
         <main>
             <!--ABOUT US-->
             <section class="section-about">
-                <div class="container">
-                    <h2>About Us</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
+                        <div class="container"> 
+                            <img src="images/about-us.jpg" alt="About Us"> 
+                   
+                                <h2>About Us</h2>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad? </p>
 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p> 
-
-                    <img src="images/about-us.jpg" alt="About Us">
-                    <!--image on left, h2 and paragraph onr right using flexbox-->
-                </div> <!--END CONTAINER-->
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p> 
+                                <!--image on left, h2 and paragraph onr right using flexbox-->
+                        </div> <!--END CONTAINER-->
             </section> 
             <!--END section-about-->
 
             <!--OUR SERVICES-->
             <section class="section-services">
-                <div class="container">
-                    <h2>Our Services</h2>
+                <h2>Our Services</h2>
+                <div class="aye">
+            
                         
                         <!--DIGITAL TRANSFORMATION-->
-                        <div class="container">
-                            <img src=images/digital.jpg alt="digital">
+                        <div class="block">
+                            <div class="dig"><img src=images/digital.jpg alt="digital"></div>
                             <h3>Digital Transformation</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
-                            <button>Digital Plans ▶</button>
+                            <button class="button">Digital Plans ▶</button>
                         </div>
                         <!--END of DIGITAL TRANSFORMATION-->
 
                         <!--MARKETING-->
-                        <div class="container">
-                            <img src="images/marketing.jpg" alt="marketing">
+                        <div class="block">
+                            <div class="mark"><img src="images/marketing.jpg" alt="marketing"></div>
                             <h3>Marketing</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                            <button>Marketing Plans ▶</button>
+                            <button class="button">Marketing Plans ▶</button>
                         </div>
                         <!--END of MARKETING-->
 
                         <!--VIDEO PROD.-->
-                        <div class="container">
+                        <div class="block">
                             <img src="images/video.jpg" alt="video">
                             <h3>Video Production</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                            <button>Video Plans ▶</button>
+                            <button class="ices">Video Plans ▶</button>
                         </div>
                         <!--END of VIDEO PRODUCTION-->
 
                         <!--WEB DEV.-->
-                        <div class="container">
+                        <div class="block">
                             <img src="images/web.jpg" alt="web">
                             <h3>Web Development</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                            <button>Web Plans ▶</button>
+                            <button class="ices">Web Plans ▶</button>
                         </div>
                         <!--END of WEB DEV.-->
 
                         <!--PRINT-->
-                        <div class="container">
+                        <div class="block"> 
                             <img src="images/print.jpg" alt="print">
                             <h3>Print</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                            <button>Print Plans ▶</button>
+                            <button class="ices">Print Plans ▶</button>
+                        
                         </div>
                         <!--END of PRINT-->
 
@@ -110,12 +122,11 @@
 
             <!--OUR VISION-->
             <section class="section-vision">
-                <div class="container">
+                <div class="vision">
 
-                    <img src="images/vision.jpg" alt="vision">
                     <h3>Our Vision</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
-                    <button class="w3-btn">Learn More ▶</button>
+                    <button class="learnbutton">Learn More ▶</button>
 
                     <!--h3, paragraph and button (figure out class name button needs class name)-->
                 </div> <!--END CONTAINER-->
@@ -124,16 +135,16 @@
 
             <!--OUR TEAM-->
             <section class="section-team">
+                <h2>Our Team</h2>
                 <div class="container">
                     
-                    <h2>Our Team</h2>
 
                 <!--JOHN DOE-->
-                    <div class="john image">
+                    <div class="text">
                         <img src="images/john.jpg" alt="john">
                     </div>
 
-                        <div class="john text">
+                        <div class="text">
                             <h3>John Doe</h3>
                             <h4>CEO and Co-owner</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
@@ -141,13 +152,13 @@
                 <!--END of JOHN DOE-->
 
                 <!--BOB RITE-->
-                        <div class="bob text">    
+                        <div class="text">    
                             <h3>Bob Rite</h3>
                             <h4>CFO and Co-Owner</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
                         </div>
                         
-                    <div class="bob image">   
+                    <div class="text">   
                             <img src="images/bob.jpg" alt="bob">
                     </div>
                 <!--END of BOB RITE-->
@@ -159,7 +170,7 @@
 
             <!--CONTACT US-->
             <section class="section-contact">
-                <div class="container">
+                <div class="contact">
                     
                     <!--CONTACT US-->
                     <h2>Contact Us</h2>
@@ -178,7 +189,7 @@
                         <div id="googleMap"> </div>
 
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.0391890571377!2d-75.75913718459786!3d45.3480211790998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07afd713c56d%3A0xb73cbaee6d47a756!2s1385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%201V8!5e0!3m2!1sen!2sca!4v1669658902898!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                </div>        
                     <!--END of LOCATION-->
                     
                     <!--HOURS OF OP.-->
@@ -201,7 +212,7 @@
                     <!--END of OP.-->
 
                     <!--h2 contact, form, google maps embed, table on a grid -->
-                </div> <!--END CONTAINER-->
+                 <!--END CONTAINER-->
             </section> <!--END section-contact-->
         </main>
 
